@@ -1,0 +1,9 @@
+{
+  "name": "atelier_noir",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}
+
