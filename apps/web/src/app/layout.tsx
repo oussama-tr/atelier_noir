@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "./components/layout/Header";
 
 const gotham = localFont({
   src: [
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${gotham.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-white text-black">
+        <Header />
         {children}
       </body>
     </html>
